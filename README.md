@@ -36,7 +36,6 @@
     <img src="https://img.shields.io/badge/AI%20SDK-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel AI SDK">
     <img src="https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white" alt="Zod">
   </p>
-
 </div>
 
 ---
@@ -653,6 +652,14 @@ Full reference: [docs/API_REFERENCE.md](docs/API_REFERENCE.md
 - RAG / knowledge-graph backend
 - One-click "Ship" flow: agent → PR/artifact → deployed demo
 - Recording: playback for full browser sessions
+
+---
+
+## 🔗 Links
+
+- **Repository:** [github.com/robloxsagax-web/Autopilot](https://github.com/robloxsagax-web/Autopilot)
+- **License:** [MIT](https://github.com/robloxsagax-web/Autopilot/blob/master/LICENSE)
+- **🖥️ Live demo:** **Local-first by design.** ...
 
 ---
 
