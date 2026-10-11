@@ -10,12 +10,12 @@
   </p>
 
   <p align="center">
-    <img src="https://img.shields.io/github/stars/robloxsagax-web/Autopilot?style=for-the-badge&logo=github&color=FFD700" alt="GitHub stars">
-    <img src="https://img.shields.io/github/forks/robloxsagax-web/Autopilot?style=for-the-badge&logo=github" alt="Forks">
-    <img src="https://img.shields.io/github/issues/robloxsagax-web/Autopilot?style=for-the-badge&logo=github" alt="Issues">
-    <img src="https://img.shields.io/github/v/release/robloxsagax-web/Autopilot?style=for-the-badge&logo=semver" alt="Release">
-    <img src="https://img.shields.io/github/license/robloxsagax-web/Autopilot?style=for-the-badge&color=blue" alt="License">
-    <img src="https://img.shields.io/github/last-commit/robloxsagax-web/Autopilot?style=for-the-badge&logo=git" alt="Last commit">
+    <img src="https://img.shields.io/github/stars/digiflowhelp-stack/Autopilot?style=for-the-badge&logo=github&color=FFD700" alt="GitHub stars">
+    <img src="https://img.shields.io/github/forks/digiflowhelp-stack/Autopilot?style=for-the-badge&logo=github" alt="Forks">
+    <img src="https://img.shields.io/github/issues/digiflowhelp-stack/Autopilot?style=for-the-badge&logo=github" alt="Issues">
+    <img src="https://img.shields.io/github/v/release/digiflowhelp-stack/Autopilot?style=for-the-badge&logo=semver" alt="Release">
+    <img src="https://img.shields.io/github/license/digiflowhelp-stack/Autopilot?style=for-the-badge&color=blue" alt="License">
+    <img src="https://img.shields.io/github/last-commit/digiflowhelp-stack/Autopilot?style=for-the-badge&logo=git" alt="Last commit">
   </p>
 
   <p align="center">
@@ -390,7 +390,7 @@ graph TD
 
 ## 🖱️ Computer Use — Full Desktop Agent
 
-Beyond the browser, Autopilot operates an entire desktop. It opens apps, navigates OS-level settings, interacts with files, and performs step-by-step actions like a human — every step screenshot-verified and streamed live.
+Beyond the browser, Autopilot operates an entire desktop. It opens applications, navigates OS-level settings, interacts with files, and performs step-by-step actions like a human. Every action runs through a **screenshot loop** — the agent captures the screen, reasons about the visual result, and verifies each step before moving on — with the whole session streamed live.
 
 **Demo:** instruct the agent to change the default search engine from Google to DuckDuckGo. It opens Firefox, reads the screen, clicks through the menu → Settings → Search, and completes the change — with the agent's reasoning visible in real time alongside the live remote desktop.
 
@@ -429,7 +429,7 @@ Powered by the Docker WebTop desktop image (Firefox + Chromium). Each session is
 ### 1. Clone
 
 ```bash
-git clone https://github.com/robloxsagax-web/Autopilot.git
+git clone https://github.com/digiflowhelp-stack/Autopilot.git
 cd Autopilot
 ```
 
@@ -693,8 +693,8 @@ Full reference: [docs/API_REFERENCE.md](docs/API_REFERENCE.md
 
 ## 🔗 Links
 
-- **Repository:** [github.com/robloxsagax-web/Autopilot](https://github.com/robloxsagax-web/Autopilot)
-- **License:** [MIT](https://github.com/robloxsagax-web/Autopilot/blob/master/LICENSE)
+- **Repository:** [github.com/digiflowhelp-stack/Autopilot](https://github.com/digiflowhelp-stack/Autopilot)
+- **License:** [MIT](https://github.com/digiflowhelp-stack/Autopilot/blob/master/LICENSE)
 - **🖥️ Live demo:** **Local-first by design.** ...
 
 ---

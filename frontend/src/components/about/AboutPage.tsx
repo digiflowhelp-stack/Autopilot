@@ -11,7 +11,7 @@ interface AboutPageProps {
 export const AboutPage: React.FC<AboutPageProps> = ({ onClose }) => {
   // Git information - these would typically come from environment variables or build process
   const gitInfo = {
-    repository: 'robloxsagax-web/Autopilot',
+    repository: 'digiflowhelp-stack/Autopilot',
     commit: 'a15d9ea',
     branch: 'feat/experimental_mcp',
     version: '1.0.0',

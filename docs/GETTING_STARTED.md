@@ -6,7 +6,7 @@ This guide will help you get up and running with Iris.
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/robloxsagax-web/Autopilot.git
+    git clone https://github.com/digiflowhelp-stack/Autopilot.git
     cd Autopilot
     ```
 2.  **Install dependencies:**
