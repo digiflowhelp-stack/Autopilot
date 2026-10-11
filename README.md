@@ -43,12 +43,14 @@
 ## 📖 Table of Contents
 
 - [What Is Autopilot?](#what-is-terminator)
+- [AI for Automation](#ai-for-automation)
 - [The Problem We Are Solving](#the-problem-we-are-solving)
 - [Why We Built This — The Origin Story](#why-we-built-this---the-origin-story)
 - [How We Built It — The Engineering Story](#how-we-built-it---the-engineering-story)
 - [The "Best Automated Software Engineering" Case](#the-best-automated-software-engineering-case)
 - [The Best of What's Inside](#the-best-of-whats-inside)
 - [Architecture](#architecture)
+- [Computer Use — Full Desktop Agent](#computer-use--full-desktop-agent)
 - [Tech Stack](#tech-stack)
 - [Getting Started](#getting-started)
 - [AI Providers](#ai-providers)
@@ -83,6 +85,19 @@
 | 📄 **LaTeX PDF pipeline** | Turn plain LaTeX into a downloadable/inline-rendered PDF with zero extra tooling |
 | 🎞️ **Session replay** | Every tool call is recorded into a film-strip timeline — scrub back,replay,and export a full self-contained **HTML replay** |
 | ⚡ **Real-time UX** | Streaming tokens via **Socket.IO + SSE**, file attachments,dark mode,glassmorphism UI,Monaco editor,Framer Motion |
+
+
+## ⚡ AI for Automation
+
+Autopilot is built for one purpose: **automation**. Every capability exists to perform a task end to end — **without human intervention**.
+
+- 🤖 **Coding tasks** — the agent writes and runs real code, no copy-paste
+- 🔬 **Research tasks** — plan → search → deep-dive → cited report, unattended
+- 🌐 **Browser tasks** — the agent opens the browser, reads the screen, and clicks through
+- 🖱️ **Desktop tasks** — full computer use: opens apps, navigates OS settings, controls the desktop like a human
+- 🎞️ Every automated action is recorded and replayable
+
+Set the task. Autopilot performs it. No human in the loop.
 
 
 ---
@@ -373,6 +388,16 @@ graph TD
 
 ---
 
+## 🖱️ Computer Use — Full Desktop Agent
+
+Beyond the browser, Autopilot operates an entire desktop. It opens apps, navigates OS-level settings, interacts with files, and performs step-by-step actions like a human — every step screenshot-verified and streamed live.
+
+**Demo:** instruct the agent to change the default search engine from Google to DuckDuckGo. It opens Firefox, reads the screen, clicks through the menu → Settings → Search, and completes the change — with the agent's reasoning visible in real time alongside the live remote desktop.
+
+Powered by the Docker WebTop desktop image (Firefox + Chromium). Each session is isolated and observable — no human intervention required.
+
+---
+
 ## 🛠️ Tech Stack
 
 | Layer | Technologies |
@@ -384,6 +409,7 @@ graph TD
 | **Database** | SQLite via bun:sqlite (sessions,messages,tool_calls with indexes) |
 | **Research** | DuckDuckGo Instant Answer API, Mozilla Readability, Turndown (HTML→Markdown), jsdom |
 | **Browser / MCP** | @modelcontextprotocol/sdk, @agent-infra/browser, stdio transport, puppeteer |
+| **Computer Use** | Docker WebTop desktop (Firefox + Chromium), screenshot-based vision loop |
 | **PDF** | pdflatex (LaTeX → PDF), streamed via Express |
 | **Frontend** | React 18, Vite 7, Tailwind CSS 3, Framer Motion, react-router-dom, jotai, react-markdown, react-syntax-highlighter, Monaco Editor, socket.io-client, next-themes |
 | **Validation** | Zod schemas on every tool parameter |
