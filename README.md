@@ -677,4 +677,4 @@ Full reference: [docs/API_REFERENCE.md](docs/API_REFERENCE.md
 
 Released under the [MIT License](./LICENSE)
 
-<sub>Built for the **Best Automated Software Engineering Project** track — where agents don't just answer, they build.</sub>
+<sub>Built for **EvoHackathon 2026** — automation for AI. Built by **Daniyal Khan**.</sub>
